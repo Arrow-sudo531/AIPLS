@@ -1,0 +1,121 @@
+student_id,goal_completion_rate,time_estimation_ratio,avg_distractions,behavior_label,daily_suggestion
+1,0.93,0.91,0.4,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+2,0.84,1.05,1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+3,0.98,0.92,0.6,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+4,0.81,0.94,0.8,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+5,0.81,0.94,1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+6,0.91,0.94,0.9,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+7,0.96,0.9,1.2,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+8,0.94,0.97,0.2,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+9,0.99,0.97,0.1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+10,0.82,1.07,0.9,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+11,0.96,1.05,0.8,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+12,0.99,0.98,0.8,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+13,0.97,1.02,1.3,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+14,0.92,1.04,0.1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+15,0.85,0.96,0.1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+16,0.85,0.92,0.4,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+17,0.93,0.97,0.6,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+18,0.84,0.95,1.4,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+19,0.93,1.02,0.3,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+20,0.95,0.93,0.6,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+21,1,1.03,0.8,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+22,0.94,1.07,1.2,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+23,0.85,0.91,0.5,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+24,0.85,0.94,1.4,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+25,0.98,0.96,1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+26,0.88,1.08,0.7,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+27,0.85,0.95,0.8,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+28,0.85,1.02,1.3,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+29,0.88,0.94,1.5,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+30,0.9,0.92,0.1,Efficient Learner,You are pacing perfectly. Your time estimates are highly accurate. Keep up the exact same strategy today!
+31,0.24,0.62,2.6,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+32,0.35,0.42,1.8,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+33,0.55,0.59,2.9,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+34,0.5,0.4,2.4,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+35,0.44,0.59,1.5,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+36,0.42,0.44,1.9,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+37,0.36,0.73,2.8,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+38,0.29,0.58,1.4,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+39,0.52,0.7,1.6,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+40,0.42,0.61,1.3,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+41,0.47,0.59,2.6,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+42,0.39,0.4,1.6,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+43,0.21,0.73,2.8,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+44,0.49,0.51,1.1,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+45,0.51,0.73,1.2,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+46,0.37,0.42,2.5,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+47,0.47,0.44,2,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+48,0.39,0.49,2.7,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+49,0.35,0.47,2.1,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+50,0.46,0.47,1.6,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+51,0.55,0.63,1.9,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+52,0.38,0.44,1.4,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+53,0.32,0.61,1.5,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+54,0.28,0.42,2.3,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+55,0.28,0.72,2.7,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+56,0.22,0.48,2.3,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+57,0.27,0.45,2.9,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+58,0.4,0.57,2.6,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+59,0.48,0.47,1.2,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+60,0.35,0.55,1.9,Over-Planner,You might be scheduling too much. Try the 'Rule of 3' today: pick only 3 non-negotiable goals to prevent feeling overwhelmed.
+61,0.82,1.77,2.5,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+62,0.63,1.58,1.5,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+63,0.86,1.47,1.3,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+64,0.73,1.6,1.4,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+65,0.67,1.95,1.7,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+66,0.86,1.69,1.1,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+67,0.9,1.89,2.5,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+68,0.88,1.89,1.2,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+69,0.75,1.45,1.6,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+70,0.62,1.57,2.5,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+71,0.68,1.85,1.7,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+72,0.73,1.97,2.5,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+73,0.77,1.8,1.2,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+74,0.69,1.98,1.9,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+75,0.76,1.82,1.1,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+76,0.78,1.65,2.3,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+77,0.65,1.97,1.1,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+78,0.66,1.72,2,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+79,0.67,1.38,2.3,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+80,0.67,1.72,1.9,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+81,0.73,1.71,1.8,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+82,0.88,1.44,2.1,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+83,0.67,1.58,2,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+84,0.69,1.52,2.1,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+85,0.62,1.62,2.5,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+86,0.9,1.35,1.3,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+87,0.68,1.95,2.3,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+88,0.86,1.56,1.2,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+89,0.85,1.79,1.9,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+90,0.9,1.76,1,Under-Estimator,Your tasks are taking longer than planned. Pad today's time estimates by 50% to reduce time-anxiety and stay on track.
+91,0.44,1.38,6.7,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+92,0.48,1.28,4.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+93,0.19,1.53,5.1,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+94,0.36,1.63,4.8,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+95,0.37,1.36,6,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+96,0.47,1.71,4.4,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+97,0.3,1.37,4,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+98,0.42,1.58,5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+99,0.41,1.53,5.7,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+100,0.15,1.25,7.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+101,0.47,1.53,7.3,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+102,0.35,1.29,4.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+103,0.26,1.74,7.2,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+104,0.45,1.74,4.8,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+105,0.24,1.26,7.1,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+106,0.46,1.44,6.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+107,0.2,1.76,7.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+108,0.49,1.69,7.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+109,0.16,1.64,5.3,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+110,0.48,1.68,7.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+111,0.43,1.36,7.1,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+112,0.19,1.72,7.4,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+113,0.23,1.69,5.8,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+114,0.26,1.68,4.9,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+115,0.16,1.32,5.3,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+116,0.45,1.78,5.1,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+117,0.37,1.44,7.9,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+118,0.34,1.76,4.5,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+119,0.49,1.31,7.9,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.
+120,0.24,1.27,5.7,Distracted Learner,High fragmentation detected in your recent tasks. Turn on 'Do Not Disturb' and attempt a strict 25-minute focused sprint.

@@ -1,0 +1,23 @@
+# Java / Maven
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python environment and caches
+ml-engine/venv/
+ml-engine/__pycache__/
+ml-engine/**/*.py[cod]
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
+*.local
+__pycache__/
+*.py[cod]
