@@ -1,23 +1,50 @@
-# Java / Maven
-backend/target/
-backend/.mvn/wrapper/maven-wrapper.jar
-
-# Frontend dependencies and build output
-frontend/node_modules/
-frontend/dist/
-
-# Python environment and caches
-ml-engine/venv/
-ml-engine/__pycache__/
-ml-engine/**/*.py[cod]
-
-# Local environment and editor files
-.env
-.env.*
-!.env.example
-.vscode/
-.idea/
-*.log
-*.local
+# Python
+venv/
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Node / React
+node_modules/
+dist/
+.vite/
+*.local
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Temp and lock files
+*.bak
+~$*
+

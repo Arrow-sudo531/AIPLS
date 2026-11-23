@@ -13,3 +13,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+server:
+  tomcat:
+    max-http-form-post-size: 50MB
+    max-swallow-size: 50MB

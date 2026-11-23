@@ -28,7 +28,10 @@ public class HabitTrackerController {
     @GetMapping
     public ResponseEntity<List<LearningActivityDto>> getActivities(
             @PathVariable Long userId,
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
-        return ResponseEntity.ok(habitTrackerService.getUserActivitiesForDate(userId, date));
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
+        if (date != null) {
+            return ResponseEntity.ok(habitTrackerService.getUserActivitiesForDate(userId, date));
+        }
+        return ResponseEntity.ok(habitTrackerService.getAllUserActivities(userId));
     }
 }

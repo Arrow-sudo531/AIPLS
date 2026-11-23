@@ -1,15 +1,147 @@
 @import "tailwindcss";
 
+:root {
+  --paper-bg: #FBF9F4;
+  --paper-surface: #FFFFFF;
+  --paper-card: #F7F4EB;
+  --paper-sunken: #F1ECE0;
+  --paper-rule: #E8E1D3;
+  --paper-rule-dark: #D4CBBC;
+  --ink-primary: #181B1F;
+  --ink-secondary: #535965;
+  --ink-faint: #8A919E;
+  --stamp-vermilion: #C83D1B;
+  --stamp-vermilion-faint: #FCECE8;
+  --stamp-sage: #36594A;
+  --stamp-sage-faint: #EDF3F0;
+  --stamp-ochre: #A96810;
+  --stamp-ochre-faint: #FBF3E6;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: var(--paper-bg);
+  color: var(--ink-primary);
+  font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-serif {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive;
+}
+
+.notebook-paper {
+  background-color: var(--paper-surface);
+  border: 1px solid var(--paper-rule);
+  box-shadow: 0 1px 2px rgba(24, 27, 31, 0.04), 0 4px 12px rgba(24, 27, 31, 0.02);
+}
+
+.ruled-lines {
+  background-image: repeating-linear-gradient(transparent, transparent 27px, var(--paper-rule) 28px);
+  line-height: 28px;
+}
+
+.stamp-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.stamp-red {
+  color: var(--stamp-vermilion);
+  border-color: var(--stamp-vermilion);
+  background-color: var(--stamp-vermilion-faint);
+}
+
+.stamp-green {
+  color: var(--stamp-sage);
+  border-color: var(--stamp-sage);
+  background-color: var(--stamp-sage-faint);
+}
+
+.stamp-amber {
+  color: var(--stamp-ochre);
+  border-color: var(--stamp-ochre);
+  background-color: var(--stamp-ochre-faint);
+}
+
+.stamp-ink {
+  color: var(--ink-primary);
+  border-color: var(--ink-primary);
+  background-color: var(--paper-sunken);
+}
+
+.dossier-tab {
+  position: relative;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s ease-in-out;
+}
+
+.dossier-tab-active {
+  background-color: var(--paper-surface);
+  border-color: var(--paper-rule) var(--paper-rule) transparent var(--paper-rule);
+  color: var(--stamp-vermilion);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #181B1F !important;
+    font-size: 11pt !important;
+  }
+  header, nav, .no-print, button, input, textarea, select {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .notebook-paper {
+    box-shadow: none !important;
+    border: 1px solid #CCCCCC !important;
+    background-color: #FFFFFF !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .ruled-lines {
+    background-image: none !important;
+  }
 }

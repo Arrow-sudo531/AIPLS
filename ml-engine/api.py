@@ -7,23 +7,11 @@ import math
 
 app = FastAPI(title="SRL AI Engine")
 
-centroids = []
-try:
-    with open("models/centroids.json", "r") as f:
-        centroids = json.load(f)
-except Exception as e:
-    print(f"Error loading models: {e}. Please run train_models.py first.")
-
 class SessionRequest(BaseModel):
     planned_duration: int
     time_of_day: int
     streak_days: int
     subject: str
-
-class UserAggregateRequest(BaseModel):
-    avg_duration: float
-    avg_distractions: float
-    avg_difficulty: float
 
 @app.post("/predict_session")
 def predict_session(req: SessionRequest):

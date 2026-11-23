@@ -72,6 +72,21 @@ public class HabitTrackerService {
                 .map(this::mapToDto)
                 .collect(Collectors.toList());
     }
+
+    public List<LearningActivityDto> getAllUserActivities(Long userId) {
+        return activityRepository.findByUserId(userId).stream()
+                .sorted((a, b) -> {
+                    if (a.getLoggedAt() != null && b.getLoggedAt() != null) {
+                        return b.getLoggedAt().compareTo(a.getLoggedAt());
+                    }
+                    if (a.getActivityDate() != null && b.getActivityDate() != null) {
+                        return b.getActivityDate().compareTo(a.getActivityDate());
+                    }
+                    return 0;
+                })
+                .map(this::mapToDto)
+                .collect(Collectors.toList());
+    }
     
     private LearningActivityDto mapToDto(LearningActivity activity) {
         return LearningActivityDto.builder()

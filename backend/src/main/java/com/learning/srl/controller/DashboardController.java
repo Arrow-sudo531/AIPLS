@@ -33,7 +33,7 @@ public class DashboardController {
     }
 
     @GetMapping("/nudge")
-    public ResponseEntity<Map<String, String>> getNudge(@PathVariable Long userId) {
-        return ResponseEntity.ok(Map.of("nudge", mlEngineService.generateNudge(userId)));
+    public ResponseEntity<Map<String, Object>> getNudge(@PathVariable Long userId) {
+        return ResponseEntity.ok(mlEngineService.generateNudgeDetails(userId));
     }
 }
