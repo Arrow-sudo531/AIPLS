@@ -132,16 +132,4 @@ Prototype/
 | `/analyze_behavior` | POST | K-Means classifier — returns learner persona |
 | `/generate_breakdown` | POST | AI goal breakdown into micro-tasks |
 
----
 
-## 👥 Team & Acknowledgements
-
-- **Aman Shakya** — Developer (VIT Bhopal, B.Tech CSE)
-- **Prof. Atasi Mohanty** — Internship Supervisor (IIT Kharagpur)
-- **Dr. Sannet Thomas** — Consultant Psychologist (IIT Kharagpur)
-- **Mr. Jatin Gupta** — Pre-Doctoral Fellow (IIT Kharagpur)
-
----
-
-## 📄 License
-Academic research prototype. Not for commercial use.
