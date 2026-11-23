@@ -117,7 +117,9 @@ Prototype/
 │   └── models/
 │       ├── behavior_centroids.json  # K-Means centroids
 │       └── centroids.json           # Session risk centroids
-└── AIPLC_Internship_Report_Final.docx
+├── AIPLC_Complete_Project_Report.docx      # Complete academic report (standard academic structure)
+├── AIPLC_Internship_Report_Final.docx     # Primary internship report
+└── AIPLC_Internship_Report_Final_Expanded.docx # Expanded internship report
 ```
 
 ---
