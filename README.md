@@ -38,14 +38,24 @@ Python FastAPI ML Engine    MySQL Database
 
 ## 🚀 Setup & Running
 
-### 1. Database Setup
+### 1. Database & Environment Setup
+Create the MySQL database:
 ```sql
--- In MySQL Workbench or CLI:
 CREATE DATABASE srl_db;
 ```
-The tables are created automatically by Hibernate on first run.
+The relational tables are created automatically by Hibernate on first run.
 
-Update credentials in `backend/src/main/resources/application.yml` if your MySQL password differs from `aman@531`.
+Configure your environment variables by creating a `.env` file from `.env.example`:
+```bash
+cp .env.example .env
+```
+Update `.env` with your local database credentials:
+```properties
+DB_URL=jdbc:mysql://localhost:3306/srl_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+DB_USERNAME=root
+DB_PASSWORD=your_secure_password_here
+```
+*(You can also export `DB_PASSWORD` or `SPRING_DATASOURCE_PASSWORD` as system environment variables).*
 
 ---
 
@@ -86,14 +96,11 @@ Frontend runs on **http://localhost:5173** — open this in your browser.
 
 ---
 
-## 🔑 Default Test Accounts
+## 🔑 Authentication & Demo Setup
 
-| Email | Password |
-|-------|----------|
-| aman@vit.edu | password |
-| aman.23bcg10119@vitbhopal.ac.in | 12345 |
-
-> Or register a new account from the login screen.
+1. Open the web interface at **http://localhost:5173**.
+2. Click **Create an account** on the login screen to register a new user with any name, email, and password (minimum 6 characters).
+3. Once logged in, open the student profile drawer (top right) and click **Seed Sample Data** to instantly populate realistic study history, active goals, and reflections for evaluation.
 
 ---
 
@@ -101,9 +108,11 @@ Frontend runs on **http://localhost:5173** — open this in your browser.
 
 ```
 Prototype/
+├── .env.example       # Template for environment variables
 ├── frontend/          # React + TypeScript + Vite
 │   └── src/App.tsx    # Main application (single-file architecture)
 ├── backend/           # Spring Boot 3.2 + MySQL
+│   ├── .env.example   # Backend environment template
 │   └── src/main/java/com/learning/srl/
 │       ├── controller/    # REST endpoints
 │       ├── service/       # Business logic
@@ -117,9 +126,6 @@ Prototype/
 │   └── models/
 │       ├── behavior_centroids.json  # K-Means centroids
 │       └── centroids.json           # Session risk centroids
-├── AIPLC_Complete_Project_Report.docx      # Complete academic report (standard academic structure)
-├── AIPLC_Internship_Report_Final.docx     # Primary internship report
-└── AIPLC_Internship_Report_Final_Expanded.docx # Expanded internship report
 ```
 
 ---
